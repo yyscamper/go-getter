@@ -64,6 +64,8 @@ func init() {
 		"git":   new(GitGetter),
 		"hg":    new(HgGetter),
 		"s3":    new(S3Getter),
+		"sftp":  new(SftpGetter),
+		"ftp":   new(FtpGetter),
 		"http":  httpGetter,
 		"https": httpGetter,
 	}
